@@ -1,0 +1,17 @@
+/* Minimal styling so it looks okay without Tailwind */
+:root{--bg:#f7f7fb;--card:#ffffff;--accent:#1a73e8;--muted:#666}
+*{box-sizing:border-box}
+body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#111}
+.container{max-width:1000px;margin:32px auto;padding:20px}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(20,20,50,0.06)}
+.grid{display:grid;gap:12px}
+.controls{display:flex;gap:8px;align-items:center}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+.btn{padding:8px 12px;border-radius:8px;border:0;cursor:pointer}
+.btn-primary{background:var(--accent);color:white}
+.input{padding:8px;border-radius:8px;border:1px solid #ddd}
+.pager{display:flex;gap:8px;align-items:center;margin-top:12px}
+.small{font-size:13px;color:var(--muted)}
+.footer{margin-top:16px;text-align:center;color:var(--muted)}
